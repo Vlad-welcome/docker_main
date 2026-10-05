@@ -1,2 +1,5 @@
 docker build -t my-app:0.1 .
 docker run --rm my-app:0.1
+
+docker compose up -d
+docker compose down -v
